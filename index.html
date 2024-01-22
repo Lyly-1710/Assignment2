@@ -9,9 +9,9 @@
 <style>
     body{
         font-family: 'Inter', sans-serif;
-        letter-spacing: 1px;
+        letter-spacing: 0.8px;
         line-height: 1.5;
-        margin: 60px;
+        margin: 80px;
     }
 
     .header{
@@ -28,36 +28,38 @@
     }
     .logo span{
         display: flex;
-        align-items:center;
-        justify-content: center;
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
         background-color: #000;
         border-radius: 4px;
         color: #FFF;
         font-size: 22px;
         font-weight: 600;
         text-align: center;
-        margin-left: 30px;
+        align-items:center;
+        justify-content:center;
         margin-right: 10px;
-        padding: 0%;
+        padding: 10px;
+
     }
     .icon{
         display: flex;
         list-style: none;
-        
+        margin-left: 680px;
     }
     .icon li{
         border-radius: 100%;
         color: #FFF;
-        width: 24px;
-        height: 24px;
+        width: 23px;
+        height: 23px;
         background-color:#e17070;
-        justify-content: center;
-        align-items: center;
+        text-align: center;
+        align-items:center;
+        justify-content:center;
+        padding: 2px 1px 1px 3.8px ;
         font-size: 16px;
         margin-right : 10px;
-        display : flex;
+        display: flex;
     }
 
     .hi{
@@ -69,8 +71,8 @@
     }
     .container {
         display: inline-flex;
-        align-items: center;
-        padding: 30px;
+        align-items: normal;
+        margin-top: 30px;
     }
     .container img {
         width: 500px;
@@ -81,14 +83,25 @@
         padding-bottom: 30px;
         margin-left: 80px;
     }
+    ul{
+        margin-block-start: 0%;
+        padding-inline-start: 0%;
+    }
     .text li{
-        display: inline-block;
-        margin-right: 40px;
+        display: inline-block; 
+        margin-block-start: 0%;
+        margin-right: 60px;
         font-weight: 1px;
     }
     .text strong{
+        display: inline-block;
         color:#e17070;
         font-size: 36px;
+        margin-left: auto;
+    }
+    .text span{
+        font-weight: 100;
+        color:#373737;
     }
     h2{
         display: inline-block;
@@ -110,7 +123,7 @@
         border-radius: 60px;
         border: 2px solid #e17070;
         background-color: white;
-        margin-left: 450px;
+        margin-left: 430px;
     }
 </style>
 <body>
@@ -122,9 +135,21 @@
         </div>
         <div>
             <ul class="icon">
-                <li><i class="fa-brands fa-github"></i></li>
-                <li><i class="fa-brands fa-stack-overflow"></i></li>
-                <li><i class="fa-brands fa-linkedin-in"></i></li>
+                <li>
+                    <a style="color:#FFF"; href="https://www.designstub.com/demos/defolio/#">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a style="color:#FFF"; href="https://www.designstub.com/demos/defolio/#">
+                        <i class="fa-brands fa-stack-overflow"></i>
+                    </a>
+                </li>
+                <li>
+                    <a style="color:#FFF"; href="https://www.designstub.com/demos/defolio/#">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
@@ -151,14 +176,16 @@
         </div>
     </div>
     <h2>ABOUT ME</h2>
-    <div style="font-weight: 1px; font-size: 22px;">
+    <div style="font-weight: 300; font-size: 22px; color:#373737">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum ante a porta blandit. Quisque velit tortor, ultricies in quam ut,
         luctus convallis metus. Nunc vitae felis rutrum, mattis justo quis, bibendum tellus. Integer bibendum eget dolor nec venenatis. Aliquam
         erat volutpat. Etiam et est vitae turpis accumsan vulputate. Curabitur et vehicula nisl, eu congue dolor. Vivamus nec hendrerit mi Nulla consequat tempor.
     </div>
-    <button>
-        DOWNLOAD RESUME
-    </button>
+    <a style="color:#e17070"; href="http://127.0.0.1:5500/index.html">
+        <button>
+            <span>DOWNLOAD RESUME</span>
+        </button>
+    </a>
     <br>
     <h2>CORE SKILLS</h2>
     <h2>OTHER SKILLS</h2>
