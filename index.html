@@ -11,7 +11,6 @@
         margin: 0px;
         font-family: 'Inter', sans-serif;
         display: block;
-        margin-left: 80px;
         color: #373737;
     }
     .header{
@@ -86,9 +85,14 @@
         margin-top: 30px;
     }
     .content{
+        margin-left: 80px;
         letter-spacing: 0.8px;
         line-height: 1.5;
         margin: 0 8px 80px 0px;
+    }
+    .container
+    {
+        margin-left: 80px;
     }
     .container img {
         width: 500px;
@@ -150,11 +154,13 @@
     }
     .skills
     {
+        margin-left: 80px;
         display: flex;
         margin-right: auto;
     }
     .list
     {
+        margin-left: 80px;
         flex-wrap: wrap;
         width: 550px;
         margin: 40px 15px 10px 0px;
@@ -173,11 +179,9 @@
         font-weight:lighter;
         font-size: 24px;
     }
-    .ABox div ul li::marker
+    .ABox
     {
-        list-style-type: disc;
-        color: black;
-        font-size: 30px;
+        margin-left: 80px;
     }
     .ABox div
     {
@@ -205,33 +209,37 @@
     }
     .BBox
     {
+        display: inline-flex;
+        margin-left: 80px;
         background-color: #F6F8FA;
         width: 1100px;
-        height: 400px;
+        height: 430px;
         letter-spacing: 1px;
         font-weight: 300;
         font-size: 18px;
         line-height: 30px;
         box-sizing: border-box;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
     }
     .BBox div
     {
         display: inline-block;
         width: 470px;
         margin-right: 0px;
+        margin-top: 45px;
     }
     .BBox img
     {
-        width: 360px;
-        height: 350px;
-        margin-left: 0px;
-        position:relative;
+        width: 380px;
+        height: 360px;
+        margin-left: 97px;
+        margin-top: 70px;
         left: 10%;
         top: 50px;
     }
     .end
     {
+        margin-top: 70px;
         display: block;
         color:#D7D7D7;
         width: 1200px;
@@ -311,7 +319,7 @@
             </ul>
         </div>
     </div>
-    <div class="content">
+    <div style="margin-left: 80px"; class="content">
         <h2>ABOUT ME</h2>
         <div style="font-weight: 300; font-size: 22px; color:#373737">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum ante a porta blandit. Quisque velit tortor, ultricies in quam ut,
@@ -319,9 +327,9 @@
             erat volutpat. Etiam et est vitae turpis accumsan vulputate. Curabitur et vehicula nisl, eu congue dolor. Vivamus nec hendrerit mi Nulla consequat tempor.
         </div>
         <a href="http://127.0.0.1:5500/index.html">
-        <button class="abox">
-            DOWNLOAD RESUME
-        </button>
+            <button class="abox">
+                DOWNLOAD RESUME
+            </button>
         </a>
         </div>
     </div>
@@ -379,31 +387,31 @@
             </ul>
         </div>  
     </div>
-    <h2>work experience</h2>
+    <h2 style="margin-left: 80px"; >work experience</h2>
     <div class="ABox">
-        <div>
+        <div class="cbox">
             <span><strong>2019 - Present</strong></span>
             <h3>Matrix Media Inc</h3>
             <span><strong>Full Stack developer</strong></span>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis sem maximus, ornare metus ut, congue enim. Sed fermentum.</p>
-            <ul>
+            <ul style="list-style-type: disc;">
                 <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis sem maximus, ornare metus ut.</li>
                 <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
             </ul>
         </div>
-        <div>
+        <div class="cbox">
             <span><strong>2018 - 2019</strong></span>
             <h3>Lexind</h3>
             <span><strong>Senior app developer</strong></span>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis sem maximus, ornare metus ut, congue enim. Sed fermentum.</p>
-            <ul>
+            <ul style="list-style-type: disc;">
                 <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis sem maximus, ornare metus ut.</li>
                 <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
                 <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis sem maximus, ornare metus ut.</li>
             </ul>
         </div>
     </div>
-    <h2>latest work</h2>
+    <h2 style="margin-left: 80px">latest work</h2>
     <div class="latestbox">
         <div class="BBox">
             <div style="margin-left: 80px">
@@ -428,7 +436,7 @@
                     DETAILS
                 </button>
             </div>
-                <img src="Hello mobile app" alt="">
+                <img src="https://www.designstub.com/demos/defolio/assets/images/work-2.jpg" alt="">
             </div>
         </div>
         <div class="BBox">
